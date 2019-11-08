@@ -1,0 +1,30 @@
+@media only screen and (min-width: 920px) {
+  .flex-mid {
+    display: flex;
+  }
+
+  .hero {
+    width: 30%;
+  }
+
+  .feature {
+    width: 70%;
+  }
+
+  main {
+    width: 80%;
+    margin-left: 20%;
+    padding: 40px;
+    border: none;
+  }
+
+  header {
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  nav {
+    background-color: #4056a1;
+    background-image: none;
+  }
+}

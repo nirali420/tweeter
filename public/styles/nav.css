@@ -1,0 +1,51 @@
+nav {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  top: 0;
+  background-color: #f4a460;
+  background-image: url(/images/blizzard.png);
+  color: #ffffff;
+  padding: 1.5em;
+  z-index: 12222;
+}
+
+span {
+  float: left;
+  font-family: "Bungee", cursive;
+  font-size: 1.5em;
+}
+
+nav p {
+  float: right;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.arrow {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 30px;
+  width: 20px;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

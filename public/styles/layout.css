@@ -6,7 +6,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -18,8 +20,31 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 120px;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+main {
+  width: 80%;
+  margin-left: 10%;
+  padding: 40px;
+  border: none;
+}
+
+.alert1,
+.alert2 {
+  display: none;
+}
+
+.alert1 h4,
+.alert2 h4 {
+  display: block;
+  color: red;
+  font-size: 1em;
+  border: 3px solid red;
+  padding: 20px;
+}

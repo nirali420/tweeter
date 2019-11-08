@@ -1,0 +1,90 @@
+/* ============== NEW TWEET ======================== */
+
+.tweet-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #f4a460;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  resize: none;
+}
+
+.tweet-button {
+  margin-top: 20px;
+  padding: 5px;
+  font-family: bungee;
+  font-size: 1em;
+  color: white;
+  background-color: #4056a1;
+}
+
+.counter {
+  float: right;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+/* ================= OLD TWEET CONTAINER ====================== */
+
+.tweet-container {
+  margin-top: 40px;
+}
+
+.tweet {
+  border: 3px solid black;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+.tweet-img {
+  display: block;
+  margin: 0;
+}
+
+.tweet-username {
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+.tweet-userid {
+  display: none;
+  margin-left: auto;
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.tweet-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  overflow-wrap: break-word;
+  border-bottom: 3px solid black;
+  padding-bottom: 40px;
+}
+
+article.tweet:hover {
+  box-shadow: 8px 8px 4px 0px #4056a1cc;
+}
+
+article.tweet:hover .tweet-userid {
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-date {
+  font-size: 0.6em;
+  margin: 0;
+}
+
+.tweet-icons {
+  color: #4056a1;
+}
