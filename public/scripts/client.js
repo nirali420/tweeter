@@ -93,6 +93,8 @@ const postTweet = function(event) {
       data: $(this).serialize(),
       success: data => {
         loadTweets();
+	$(".tweet-textarea").val("");
+        $(".counter").text("140");
       }
     });
   }
